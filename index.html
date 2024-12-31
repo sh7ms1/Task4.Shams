@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand fw-bolder fs-6 ms-5" ><a href="./index.html"><img class="h-50 w-75" id="logo" src="./images/logo.png" alt=""></a></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon icon-color"></span>
+          </button>
+          <div class="collapse navbar-collapse me-5" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-2 ">
+              <li class="nav-item">
+                <a class="nav-link active x fs-5 fw-medium" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active x fs-5 fw-medium" href="./html/contact page.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active x fs-5 fw-medium" href="./html/services page.html">Services offered</a>
+              </li>
+              <li class="nav-item">
+                <a href="./html/cart.html">
+                  <img class="w-50 h-75 my-1 ms-4 media-cart " src="./images/cart.png" alt="Cart" class="cart-icon">
+                  <span id="cart-count">0</span>
+              </a>
+              </li>
+              <li class="nav-item">
+      
+                <div class="container mt-2 text-center">
+                 
+                  <button type="button" id="butn" class="btn p-1  px-3 fs-6 ms-3 fw-medium" data-bs-toggle="modal" data-bs-target="#signupModal">
+                    Sign-up
+                  </button>
+                </div>
+              
+                <!-- Sign-Up Modal -->
+                <div class="modal fade q2" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content q1">
+                      <div class="modal-header">
+                        <h5 class="modal-title t" id="signupModalLabel">Sign-Up</h5>
+                        
+                      </div>
+                      <div class="modal-body">
+                        <form id="signupForm" class="needs-validation" novalidate>
+                          <div class="mb-3">
+                            <label for="email" class="form-label t">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="password" class="form-label t">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password" required minlength="6">
+                            <div class="invalid-feedback">Password must be at least 6 characters long.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="confirmPassword" class="form-label t">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
+                            <div class="invalid-feedback">Passwords do not match.</div>
+                          </div>
+                          <button type="submit" class="btn btn-primary w-100 btn44">Sign Up</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="container">
+          <div  id="head">
+            <h1 class="x fw-bolder px-5" id="heading">Berimbolo SECURITY SYSTEM</h1>
+            <p class="x fw-bolder py-3 px-5">Security system services, Make you own home save!</p>
+            <a class=" py-3 px-5" id="button" href="./html/shop page.html"><button class="btn text-white fw-bolder px-5" id="btn">Shop Now</button></a>
+            <p class="x py-3 px-5">Visit our information <span>|<a href="" class="ms-1" id="link1">About us</a></span></p>
+        </div>
+        </div>    
+      </header>
+
+
+
+       <section id="first-section">
+        <div class="container-fluid d-flex  justify-content-around gap-2 media-section">
+      
+            <div class="">
+              <img id="img-section" class="img-fluid mt-5 rounded-4  mb-3" src="images/download (2).jpg" alt="">
+            </div>
+            <div class=" mt-5 py-5 mb-3 rounded-4 " id="form">
+              <input class="py-2 form-control w-75 m-auto d-block"id="inputs1" type="password"placeholder="Enter your password">
+              <input class=" py-2 my-4 form-control w-75 m-auto d-block"id="inputs2" type="email"placeholder="Enter your Email">
+              <button class="btn d-block m-auto fw-bolder" id="btn-form">SIGN</button>
+            </div>
+          </div>
+        
+    
+      </section>
+      <footer id="footer" class="container-fluid d-md-flex">
+        <div class="mt-auto">
+          <p class="x fw-bolder p-footer1">Privacy policy:</p>
+          <p><pre class="x fw-bolder p-footer">Nav list:  Contact  Services offered  Home</pre></p>
+        </div>
+          <div class="ms-auto " id="part2">
+            <a href="facebook.com" ><img class="xx mt-4 d-block" src="./images/facebook.png" alt=""></a>
+            <a href="twitter.com"><img class="xx my-3  d-block" src="./images/twitter.png" alt=""></a>
+            <a href="instgram.com"><img class="xx  d-block" src="./images/instagram.png" alt=""></a>
+          
+          </div> 
+          <p class="x fw-bolder  mt-auto"> &copy; 2025 Berimbolo</p>
+      </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/cart.js"></script>
+</body>
+</html>

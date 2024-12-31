@@ -1,0 +1,32 @@
+#cart-count {
+    background-color: #902B57;
+    color: #B5C7EB;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+@media screen and (min-width:700px) and (max-width: 1368px){
+    #logo{
+        width: 265px !important;
+        height: 80px !important;    
+    }
+    .icon-color{
+        margin-left: 170px !important;
+        background-color: #902B57 !important;
+    }
+    .media-cart{
+        width: 45px !important;
+        height: 45px !important;
+    }
+    #butn{
+        margin-left: 40px !important;
+        margin-bottom: 10px;
+    }
+}

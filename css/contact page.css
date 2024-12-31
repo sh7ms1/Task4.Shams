@@ -1,0 +1,161 @@
+nav{
+    background-color: #0C182D !important;
+}
+#butn{
+    background-color: #902B57;
+    color: #B5C7EB !important;
+}
+.x{
+    color: #B5C7EB !important;
+}
+#logo{
+    height: 45px;
+    width: 200px;
+}
+#icon{
+    height: 35px;
+    width: 38px;
+}
+body{
+    background-color: #0C182D !important;
+}
+#contact{
+    background-color: #11203a;
+    height: 83vh;
+    box-shadow: 3px 3px 3px 0px black;
+    width: 80%;
+}
+.x{
+    color: #B5C7EB;
+}
+#whatsup{
+    height: 30px;
+    width: 30px;
+ 
+}
+hr{
+    height: 5px;
+    width: 69rem;
+    background-color: #902B57;
+}
+.xxx{
+    width: 6rem;
+}
+.was-validated .form-control:invalid {
+    border-color: #dc3545;
+}
+.was-validated .form-control:valid {
+    border-color: #28a745;
+}
+.t{
+    color: #B5C7EB !important;
+}
+.btn44{
+    background-color: #902B57 !important;
+    color: #B5C7EB !important;
+    border: none !important;
+}
+.q1{
+    background-color: #0C182D !important;
+}
+#cart-count {
+    background-color: #902B57;
+    color: #B5C7EB;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+element{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+   
+    box-sizing: border-box;
+} 
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 500px){
+    #logo{
+        width: 150px !important;
+        height: 35px !important;
+        
+    }
+    .media-cart{
+        width: 45px !important;
+        height: 45px !important;
+    }
+    #butn{
+        margin-left: 40px !important;
+        margin-bottom: 10px;
+    }
+    .icon-color{
+        background-color: #902B57;
+    }
+    h1{
+        font-size: 20px;
+    }
+    pre{
+        font-size: 10px;
+    }
+    #whatsup{
+        width: 25px;
+        height: 25px;
+        margin-left: 14rem;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h5{
+        font-size: 17px;
+    }
+    .xxx{
+        width: 5rem;
+    }
+    .sets{
+        display: flex;
+        
+    }
+    .FQS{
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width:700px) and (max-width: 1025px){
+    #logo{
+        width: 265px !important;
+        height: 80px !important;    
+    }
+    .icon-color{
+        margin-left: 170px !important;
+        background-color: #902B57 !important;
+    }
+    .media-cart{
+        width: 45px !important;
+        height: 45px !important;
+    }
+    #butn{
+        margin-left: 40px !important;
+        margin-bottom: 10px;
+    }
+}

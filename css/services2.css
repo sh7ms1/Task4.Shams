@@ -1,0 +1,137 @@
+nav{
+    background-color: #0C182D !important;
+}
+#butn{
+    background-color: #902B57;
+    color: #B5C7EB !important;
+}
+.x{
+    color: #B5C7EB !important;
+}
+#logo{
+    height: 45px;
+    width: 200px;
+}
+#icon{
+    height: 35px;
+    width: 38px;
+}
+body{
+    background-color: #0C182D !important;
+}
+
+.xy{
+    color: #B5C7EB !important;
+    border: solid 2px #902B57  !important;
+    background-color: transparent !important;
+}
+.xy:hover{
+    background-color: #902B57 !important;
+}
+#p2-img{
+    width: 30px;
+    height: 28px;
+    margin-left: 10px;
+}
+#ii{
+    width: 300px;
+    border-radius: 7px;
+}
+.was-validated .form-control:invalid {
+    border-color: #dc3545;
+}
+.was-validated .form-control:valid {
+    border-color: #28a745;
+}
+.t{
+    color: #B5C7EB !important;
+}
+.btn44{
+    background-color: #902B57 !important;
+    color: #B5C7EB !important;
+    border: none !important;
+}
+.q1{
+    background-color: #0C182D !important;
+}
+#cart-count {
+    background-color: #902B57;
+    color: #B5C7EB;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 500px){
+    #logo{
+        width: 150px !important;
+        height: 35px !important;
+        
+    }
+    .media-cart{
+        width: 45px !important;
+        height: 45px !important;
+    }
+    #butn{
+        margin-left: 40px !important;
+        margin-bottom: 10px;
+    }
+    .icon-color{
+        background-color: #902B57;
+    }
+    #ii{
+        display: block;
+        width: 100%;
+        margin-right: px !important;
+    }
+}
+element{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+   
+    box-sizing: border-box;
+} 
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width:700px) and (max-width: 1025px){
+    #logo{
+        width: 265px !important;
+        height: 80px !important;    
+    }
+    .icon-color{
+        margin-left: 170px !important;
+        background-color: #902B57 !important;
+    }
+    .media-cart{
+        width: 45px !important;
+        height: 45px !important;
+    }
+    #butn{
+        margin-left: 40px !important;
+        margin-bottom: 10px;
+    }
+    .media-pro{
+        margin-top: 200px;
+    }
+}

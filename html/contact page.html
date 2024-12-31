@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/contact page.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand fw-bolder fs-6 ms-5" ><a href="../index.html"><img class="h-50 w-75" id="logo" src="../images/logo.png" alt=""></a></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon icon-color"></span>
+      </button>
+      <div class="collapse navbar-collapse me-5" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item">
+            <a class="nav-link active x fs-5 fw-medium" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active x fs-5 fw-medium" href="../html/contact page.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active x fs-5 fw-medium" href="../html/services page.html">Services offered</a>
+          </li>
+          <li class="nav-item">
+            <a href="../html/cart.html">
+              <img class="w-50 h-75 my-1 ms-4 media-cart" src="../images/cart.png" alt="Cart" class="cart-icon">
+              <span id="cart-count">0</span>
+          </a>
+          </li>
+          <li class="nav-item">
+  
+            <div class="container mt-2 text-center">
+             
+              <button type="button" id="butn" class="btn p-1  px-3 fs-6 ms-3 fw-medium" data-bs-toggle="modal" data-bs-target="#signupModal">
+                Sign-up
+              </button>
+            </div>
+          
+            <!-- Sign-Up Modal -->
+            <div class="modal fade q2" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content q1">
+                  <div class="modal-header">
+                    <h5 class="modal-title t" id="signupModalLabel">Sign-Up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form id="signupForm" class="needs-validation" novalidate>
+                      <div class="mb-3">
+                        <label for="email" class="form-label t">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="password" class="form-label t">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password" required minlength="6">
+                        <div class="invalid-feedback">Password must be at least 6 characters long.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="confirmPassword" class="form-label t">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
+                        <div class="invalid-feedback">Passwords do not match.</div>
+                      </div>
+                      <button type="submit" class="btn btn-primary w-100 btn44">Sign Up</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <div id="contact" class="container">
+        <div class="d-md-flex ">
+            <div class="mt-2"><h1 class="x fw-bolder mt-3">Common Questions</h1></div>
+            <div id="p1" class="ms-auto mt-2 ">
+                <p class="x fw-bolder px-1">Contact us with <span class="px-2 x fx-bolder">+1238973</span>   <span class="px-3"><a href=""><img class="" id="whatsup" src="../images/whatsapp.png" alt=""></a></span> </p>
+                
+            </div>
+        </div>
+        <hr>
+        <div class="d-md-flex sets">
+            <div class="ms-3">
+                <img class="xxx rounded-circle" src="../images/images (1).jpg" alt="">
+                <h5 class="x ms-4">Mary</h5>
+            </div>
+            <div class="ms-3 FQS">
+                <h2 class="x fw-bolder">Question1</h2>
+                <h2 class="x fw-bolder">Answer1</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="d-md-flex sets">
+            <div class="ms-3">
+                <img class="xxx rounded-circle" src="../images/images (3).jpg" alt="">
+                <h5 class="x ms-4">Anna</h5>
+            </div>
+            <div class="ms-3 FQS">
+                <h2 class="x fw-bolder">Question1</h2>
+                <h2 class="x fw-bolder">Answer1</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="d-md-flex sets">
+            <div class="ms-3">
+                <img class="xxx rounded-circle" src="../images/images (3).jpg" alt="">
+                <h5 class="x ms-4">Kate</h5>
+            </div>
+            <div class="ms-3 FQS">
+                <h2 class="x fw-bolder">Question1</h2>
+                <h2 class="x fw-bolder">Answer1</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="d-md-flex sets">
+          <div class="ms-3">
+              <img class="xxx rounded-circle" src="../images/images (3).jpg" alt="">
+              <h5 class="x ms-4">Kate</h5>
+          </div>
+          <div class="ms-3 FQS">
+              <h2 class="x fw-bolder">Question1</h2>
+              <h2 class="x fw-bolder">Answer1</h2>
+          </div>
+      </div>
+      <hr>
+      <div class="d-md-flex sets">
+        <div class="ms-3">
+            <img class="xxx rounded-circle" src="../images/images (3).jpg" alt="">
+            <h5 class="x ms-4">Kate</h5>
+        </div>
+        <div class="ms-3 FQS">
+            <h2 class="x fw-bolder">Question1</h2>
+            <h2 class="x fw-bolder">Answer1</h2>
+        </div>
+    </div>
+      </div>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="../js/contact page.js"></script>
+      <script src="../js/cart.js"></script>
+</body>
+</html>
